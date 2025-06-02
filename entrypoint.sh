@@ -1,3 +1,5 @@
 #!/bin/bash
-echo "Starting Xray with UUID: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb"
+# جایگزینی پورت داینامیک Railway در فایل config.json
+sed -i "s/__PORT__/${PORT}/" /etc/xray/config.json
+echo "Starting Xray on port ${PORT}"
 exec xray run -c /etc/xray/config.json
