@@ -4,7 +4,7 @@
   },
   "inbounds": [
     {
-      "port": 443,
+      "port": "__PORT__",
       "protocol": "vless",
       "settings": {
         "clients": [
@@ -25,9 +25,9 @@
           "serverNames": [
             "www.cloudflare.com"
           ],
-          "privateKey": "e87f625e18ad0746db6d05c8b414382dcdcf97c86580493298799f8999cc6f55",
+          "privateKey": "486412221eff3bfa5cd20b78f6dc8b9f070903ea2920b52964f9f90e2ca63d22",
           "shortIds": [
-            "12345678"
+            "d726e73f-f6e2-47bb-a53d-fc40d31838a6"
           ]
         }
       }
