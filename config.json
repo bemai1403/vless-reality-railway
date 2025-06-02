@@ -1,10 +1,10 @@
 {
   "log": {
-    "loglevel": "warning"
+    "loglevel": "info"
   },
   "inbounds": [
     {
-      "port": "__PORT__",
+      "port": 443,
       "protocol": "vless",
       "settings": {
         "clients": [
@@ -25,9 +25,9 @@
           "serverNames": [
             "www.cloudflare.com"
           ],
-          "privateKey": "3816048e76671ec410c0775c17fd66f0cec01e211e57cfa64c6e772ef7dbba69",
+          "privateKey": "167u4kVIBGgCmr3aZD9n8srpJQgzDbf5LwBkpC9U3Rc=",
           "shortIds": [
-            "b3a1f8d7"
+            "01234567"
           ]
         }
       }
