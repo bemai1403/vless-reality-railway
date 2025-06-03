@@ -1,29 +1,30 @@
-{
-  "inbounds": [
-    {
-      "port": 443,
-      "protocol": "vless",
-      "settings": {
-        "clients": [
-          {
-            "id": "24b4b1e1-7a89-45f6-858c-242cf53b5bdb",
-            "flow": "xtls-rprx-vision"
-          }
-        ],
-        "decryption": "none"
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "show": false,
-          "dest": "www.google.com:443",
-          "xver": 0,
-          "serverNames": ["www.google.com"],
-          "privateKey": "Y12zQAbCDEfGHIJKLMNOPQRSTUVWXYZabcdefghijklmno",
-          "shortIds": ["6ba851"]
+"inbounds": [
+  {
+    "protocol": "vless",
+    "settings": {
+      "decryption": "none",
+      "clients": [
+        {
+          "id": "your-uuid-here",
+          "flow": "xtls-rprx-vision"
         }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "show": false,
+        "dest": "example.com:443",
+        "xver": 0,
+        "serverNames": ["example.com"],
+        "privateKey": "your-correct-private-key-here",  // <-- اینجا باید کلید صحیح باشد
+        "minClientVer": "",
+        "maxClientVer": "",
+        "maxTimeDiff": 0,
+        "shortIds": ["abcd"]
       }
-    }
-  ]
-}
+    },
+    "tag": "inbound-reality"
+  }
+]
