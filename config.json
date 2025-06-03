@@ -18,7 +18,7 @@
         "dest": "example.com:443",
         "xver": 0,
         "serverNames": ["example.com"],
-        "privateKey": "VGhlUXVpY2tCcm93bkZveEp1bXBzT3ZlclRoZUxhenlEb2c=",  // <-- اینجا باید کلید صحیح باشد
+        "privateKey": "QXjYZDuzWk4wKIGbYm6elOxgY6P1qip8zrzD2YzNykI="
         "minClientVer": "",
         "maxClientVer": "",
         "maxTimeDiff": 0,
