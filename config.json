@@ -1,12 +1,16 @@
 {
+  "log": {
+    "loglevel": "warning"
+  },
   "inbounds": [
     {
+      "port": 443,
       "protocol": "vless",
       "settings": {
         "decryption": "none",
         "clients": [
           {
-            "id": "your-uuid-here",
+            "id": "1517ddde-7ce2-47c6-81b8-e7dc84a9fcad",
             "flow": "xtls-rprx-vision"
           }
         ]
@@ -27,6 +31,11 @@
         }
       },
       "tag": "inbound-reality"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom"
     }
   ]
 }
